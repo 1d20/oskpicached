@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #333;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	outline: none;
+}
+
+/* colors */
+
+.demo { background: #72d0f4; }
+.demo a { color: #1c9ccd; }
+
+a:hover, a:focus {
+	color: #777;
+}
+
+.icon-0:before{content:"\e000";}
+.icon-1:before{content:"\e001";}
+.icon-2:before{content:"\e002";}
+.icon-3:before{content:"\e003";}
+.icon-4:before{content:"\e004";}
+.icon-5:before{content:"\e005";}
+.icon-6:before{content:"\e006";}
+.icon-7:before{content:"\e007";}
+.icon-8:before{content:"\e008";}
+.icon-9:before{content:"\e009";}
+.icon-10:before{content:"\e010";}
+.icon-11:before{content:"\e011";}
+.icon-12:before{content:"\e012";}
+.icon-13:before{content:"\e013";}
+.icon-14:before{content:"\e014";}
+.icon-15:before{content:"\e015";}
+.icon-16:before{content:"\e016";}
+.icon-17:before{content:"\e017";}
+.icon-18:before{content:"\e018";}
+.icon-19:before{content:"\e019";}
+.icon-20:before{content:"\e020";}
+.icon-21:before{content:"\e021";}
+.icon-22:before{content:"\e022";}
+.icon-23:before{content:"\e023";}
+.icon-24:before{content:"\e024";}
+.icon-25:before{content:"\e025";}
+.icon-26:before{content:"\e026";}
+.icon-27:before{content:"\e027";}
+.icon-28:before{content:"\e028";}
+.icon-29:before{content:"\e029";}
+.icon-30:before{content:"\e030";}
+.icon-31:before{content:"\e031";}
+.icon-32:before{content:"\e032";}
+.icon-33:before{content:"\e033";}
+.icon-34:before{content:"\e034";}
+.icon-35:before{content:"\e035";}
+.icon-36:before{content:"\e036";}
+.icon-37:before{content:"\e037";}
+.icon-38:before{content:"\e038";}
+.icon-39:before{content:"\e039";}
+.icon-40:before{content:"\e040";}
+.icon-41:before{content:"\e041";}
+.icon-42:before{content:"\e042";}
+.icon-43:before{content:"\e043";}
+.icon-44:before{content:"\e044";}
+.icon-45:before{content:"\e045";}
+.icon-46:before{content:"\e046";}
+.icon-47:before{content:"\e047";}
+.icon-48:before{content:"\e048";}
+.icon-49:before{content:"\e049";}
+.icon-50:before{content:"\e050";}
+.icon-51:before{content:"\e051";}
+.icon-52:before{content:"\e052";}
+.icon-53:before{content:"\e053";}
+.icon-54:before{content:"\e054";}
+.icon-55:before{content:"\e055";}
+.icon-56:before{content:"\e056";}
+.icon-57:before{content:"\e057";}
+.icon-58:before{content:"\e058";}
+.icon-59:before{content:"\e059";}
+.icon-60:before{content:"\e060";}
+.icon-61:before{content:"\e061";}
+.icon-62:before{content:"\e062";}
+.icon-63:before{content:"\e063";}
+.icon-64:before{content:"\e064";}
+.icon-65:before{content:"\e065";}
+.icon-66:before{content:"\e066";}
+.icon-67:before{content:"\e067";}
+.icon-68:before{content:"\e068";}
+.icon-69:before{content:"\e069";}
+.icon-70:before{content:"\e070";}
+.icon-71:before{content:"\e071";}
+.icon-72:before{content:"\e072";}
+.icon-73:before{content:"\e073";}
+.icon-74:before{content:"\e074";}
+.icon-75:before{content:"\e075";}
+.icon-76:before{content:"\e076";}
+.icon-77:before{content:"\e077";}
+.icon-78:before{content:"\e078";}
+.icon-79:before{content:"\e079";}
+.icon-80:before{content:"\e080";}
+.icon-81:before{content:"\e081";}
+.icon-82:before{content:"\e082";}
+.icon-83:before{content:"\e083";}
+.icon-84:before{content:"\e084";}
+.icon-85:before{content:"\e085";}
+.icon-86:before{content:"\e086";}
+.icon-87:before{content:"\e087";}
+.icon-88:before{content:"\e088";}
+.icon-89:before{content:"\e089";}
+.icon-90:before{content:"\e090";}
+.icon-91:before{content:"\e091";}
+.icon-92:before{content:"\e092";}
+.icon-93:before{content:"\e093";}
+.icon-94:before{content:"\e094";}
+.icon-95:before{content:"\e095";}
+.icon-96:before{content:"\e096";}
+.icon-97:before{content:"\e097";}
+.icon-98:before{content:"\e098";}
+.icon-99:before{content:"\e099";}
+.icon-100:before{content:"\e100";}
+.icon-101:before{content:"\e101";}
+.icon-102:before{content:"\e102";}
+.icon-103:before{content:"\e103";}
+.icon-104:before{content:"\e104";}
+.icon-105:before{content:"\e105";}
+.icon-106:before{content:"\e106";}
+.icon-107:before{content:"\e107";}
+.icon-108:before{content:"\e108";}
+.icon-109:before{content:"\e109";}
+.icon-110:before{content:"\e110";}
+.icon-111:before{content:"\e111";}
+.icon-112:before{content:"\e112";}
+.icon-113:before{content:"\e113";}
+.icon-114:before{content:"\e114";}
+.icon-115:before{content:"\e115";}
+.icon-116:before{content:"\e116";}
+.icon-117:before{content:"\e117";}
+.icon-118:before{content:"\e118";}
+.icon-119:before{content:"\e119";}
+.icon-120:before{content:"\e120";}
+.icon-121:before{content:"\e121";}
+.icon-122:before{content:"\e122";}
+.icon-123:before{content:"\e123";}
+.icon-124:before{content:"\e124";}
+.icon-125:before{content:"\e125";}
+.icon-126:before{content:"\e126";}
+.icon-127:before{content:"\e127";}
+.icon-128:before{content:"\e128";}
+.icon-129:before{content:"\e129";}
