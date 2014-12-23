@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<ul>
+{% for file in files %}
+	<li><a href="{% url 'get' file.id %}">{{ file.f }}</a>({{ file.f.size }}b)</li>
+{% endfor %}
+</ul>
+</body>
+</html>
